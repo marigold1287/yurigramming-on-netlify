@@ -1,0 +1,24 @@
+baseURL = 'https://marigold1287.github.io/yurigramming'
+languageCode = 'en-us'
+title = "YURIGRAMMING -Marigold's blog-"
+theme = "Papermod"
+
+[params.homeInfoParams]
+Title =  "Yurigramming"
+Content =  """
+私の活動記録\n
+"""
+
+
+
+
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url="/Archives/"
+weight = 30
+[[menu.main]]
+identifier = "Search"
+name = "search"
+url="/search/"
+weight = 40

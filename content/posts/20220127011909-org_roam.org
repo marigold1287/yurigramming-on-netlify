@@ -1,0 +1,86 @@
+:PROPERTIES:
+:ID:       07e67fd8-6487-4dd6-8db0-ac0acd4d847f
+:END:
+#+title: org-roam
+#+filetags: :emacs:orgroam:orgmode:Zettelkasten:
+
+* インストール方法
+~M-x package-list-packages~
+
+org-roamをインストールするとsqlite等の必要なパッケージも自動でインストールされる
+* 初期設定
+[[https://www.orgroam.com/manual.html][マニュアル]]参照。最低限必要なのは
+
+フォルダの指定
+#+begin_src emacs-lisp
+(setq org-roam-directory (file-truename "~/org-roam"))
+#+end_src
+
+都度データベースの同期をとる
+#+begin_src emacs-lisp
+(org-roam-db-autosync-mode)
+#+end_src
+この2つをinit.elに書き込む
+* 全文検索
+すべてのメモの中からワードを検索したい場合 M-x [[id:1c538509-f7da-45b4-a913-aec57ac1380d][grep]] が便利。
+-e の後に検索文字列を入力。その次に検索ファイルを入力。あるいは ~-r~ をしても良い
+
+これも便利かもしれない [[https://org-roam.discourse.group/t/using-consult-ripgrep-with-org-roam-for-searching-notes/1226][Using consult-ripgrep with org-roam for searching notes - How To - Org-roam]]
+
+* 設定
+[[https://systemcrafters.cc/build-a-second-brain-in-emacs/getting-started-with-org-roam/][このサイト]]の設定を流用している。
+#+begin_src emacs-lisp
+(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory "~/org/roam")
+  (org-roam-completion-everywhere t)
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n i" . org-roam-node-insert)
+         :map org-mode-map
+         ("C-M-i" . completion-at-point)
+         :map org-roam-dailies-map
+         ("Y" . org-roam-dailies-capture-yesterday)
+         ("T" . org-roam-dailies-capture-tomorrow))
+  :bind-keymap
+  ("C-c n d" . org-roam-dailies-map)
+  :config
+  (require 'org-roam-dailies) ;; Ensure the keymap is available
+  (org-roam-db-autosync-mode))
+#+end_src
+
+* roam 起動方法
+:PROPERTIES:
+:ID:       d56c6648-3141-4154-884e-d30696805add
+:END:
+
+bashでいきなり ~emacs ~/%ROAMDIR%/foobar.org~ のように起動するとデータベースが読み込まれずにcompletion機能が使えない場合がある。
+
+普通にemacsを起動させて ~M-x org-roam-node-find~ などとすること
+
+* graph
+cygwinの場合、インストーラーからgraphvizを選択すればOK。
+ただ、このままだと出力がうまくいかずコードがemacsに表示されてしまう。
+svgファイルは
+#+begin_example
+cygwin64/tmp
+#+end_example
+内に保存される。
+svgそのものはchrome等のブラウザで開けるので次のように設定する。
+#+begin_src emacs-lisp
+  (setq org-roam-graph-viewer
+        (lambda (file)
+          (let ((org-roam-graph-viewer "/cygdrive/c/Program Files (x86)/Google/Chrome/Application/chrome.exe"))
+            (org-roam-graph--open (concat "file://c:/cygwin64" file)))))
+#+end_src
+org-roam-graph-viewerにはブラウザのフルパス。
+org-roam-graph--openにはsvgファイルのフルパスを渡すが、こっちはwindowsでの処理になるので注意。fileの中身は「/temp/hoge.svg」という文字列になっている。cygwinのルートディレクトリからの相対パス。
+
+* リンクを含むnodeのエクスポートについて
+[[id:62823505-965a-4fcd-b604-3d285d56bab5][エクスポート機能について]]
+
+* dailies
+goto と captureは異なる dailiesでcaptureを使いたい場合は ~C-CndT~ のようにする。gotoではテンプレートは有効にならない。
