@@ -1,16 +1,36 @@
-baseURL = 'https://marigold1287.github.io/yurigramming'
+# https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features
+baseURL = 'https://marigold1287.github.io/'
 languageCode = 'en-us'
 title = "YURIGRAMMING -Marigold's blog-"
 theme = "Papermod"
+mainSections = ['posts']
 
 [params.homeInfoParams]
-Title =  "Yurigramming"
-Content =  """
-私の活動記録
-"""
+ Title =  "Yurigramming"
+ Content =  """
+ 私の活動記録
+ """
+[params]
+env = "production"              #enhanced SEO
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
 
 
 
+
+# for search
+# https://fusejs.io/api/options.html
+[fuseOpts]
+isCaseSensitive = false
+shouldSort =true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+[outputs]                       #search対象
+home = ["HTML", "RSS", "JSON"]
 
 [[menu.main]]
 identifier = "Archive"
