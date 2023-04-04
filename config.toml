@@ -16,11 +16,6 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
-[params.analytics.google]
-SiteVerificationTag = "G-CF4R8L5NBH"
-
-
-
 
 # for search
 # https://fusejs.io/api/options.html
