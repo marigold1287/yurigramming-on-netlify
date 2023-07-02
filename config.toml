@@ -31,6 +31,16 @@ keys = ["title", "permalink", "summary", "content"]
 home = ["HTML", "RSS", "JSON"]
 
 [[menu.main]]
+identifier = "a"
+name = "diary"
+url="/posts/diary"
+weight = 1
+[[menu.main]]
+identifier = "post"
+name = "article"
+url="/posts/article"
+weight = 10
+[[menu.main]]
 identifier = "Tag"
 name = "Tag"
 url="/tags/"
