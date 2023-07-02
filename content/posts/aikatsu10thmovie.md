@@ -1,8 +1,8 @@
 +++
 title = "アイカツ！ 10th STORY 未来へのSTARWAY"
 author = ["Marigold"]
-date = 2023-02-08T18:38:19+09:00
-lastmod = 2023-02-08T20:52:36+09:00
+date = 2023-02-08T18:38:00+09:00
+lastmod = 2023-07-02T15:02:16+09:00
 draft = false
 +++
 
@@ -25,4 +25,3 @@ draft = false
 {{<tweet aikatsu_anime 1623259673217613825>}}
 
 明日から再販してくれる模様。速いうちに買いに行こう。
-

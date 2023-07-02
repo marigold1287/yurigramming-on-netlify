@@ -1,7 +1,8 @@
 +++
 title = "ラブライブ！サンシャイン サンシャイン水族館"
 author = ["Marigold"]
-date = 2023-04-04T23:13:19+09:00
+date = 2023-04-04T23:13:00+09:00
+lastmod = 2023-07-02T15:35:53+09:00
 draft = false
 +++
 
@@ -30,18 +31,16 @@ draft = false
 
 この写真を撮っていたせいでラブライバーであることがバレてしまう。
 
-{{< figure src="/ox-hugo/20230404_1.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_1.jpg" >}}
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_1.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_1.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_2.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_2.jpg" >}}
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_2.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_2.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_3.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_3.jpg" >}}
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_3.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_3.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_4.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_4.jpg" >}}
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_4.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_4.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_5.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_5.jpg" >}}
-
-{{< figure src="/ox-hugo/20230404_6.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_6.jpg" >}}
-
-{{< figure src="/ox-hugo/20230404_7.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_7.jpg" >}}
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_5.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_5.jpg" >}}
 
 ルビィちゃんが頑張ってアナウンスしていた...
+
+{{< figure src="/img/sunshineaquarium/thumbnail/20230404_6.jpg" height="200" rel="lightbox[1]" link="/img/sunshineaquarium/20230404_6.jpg" >}}
