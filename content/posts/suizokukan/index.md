@@ -30,18 +30,18 @@ draft = false
 
 この写真を撮っていたせいでラブライバーであることがバレてしまう。
 
-{{< figure src="/ox-hugo/20230404_1.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_1.jpg" >}}
+{{< figure src="thumbnail/20230404_1.jpg" height="200" rel="lightbox" link="20230404_1.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_2.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_2.jpg" >}}
+{{< figure src="thumbnail/20230404_2.jpg" height="200" rel="lightbox" link="20230404_2.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_3.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_3.jpg" >}}
+{{< figure src="thumbnail/20230404_3.jpg" height="200" rel="lightbox" link="20230404_3.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_4.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_4.jpg" >}}
+{{< figure src="thumbnail/20230404_4.jpg" height="200" rel="lightbox" link="20230404_4.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_5.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_5.jpg" >}}
+{{< figure src="thumbnail/20230404_5.jpg" height="200" rel="lightbox" link="20230404_5.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_6.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_6.jpg" >}}
+{{< figure src="thumbnail/20230404_6.jpg" height="200" rel="lightbox" link="20230404_6.jpg" >}}
 
-{{< figure src="/ox-hugo/20230404_7.jpg" height="200" rel="lightbox" link="/ox-hugo/20230404_7.jpg" >}}
+{{< figure src="thumbnail/20230404_7.jpg" height="200" rel="lightbox" link="20230404_7.jpg" >}}
 
 ルビィちゃんが頑張ってアナウンスしていた...
