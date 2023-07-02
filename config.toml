@@ -31,6 +31,11 @@ keys = ["title", "permalink", "summary", "content"]
 home = ["HTML", "RSS", "JSON"]
 
 [[menu.main]]
+identifier = "Tag"
+name = "Tag"
+url="/tags/"
+weight = 20
+[[menu.main]]
 identifier = "Archive"
 name = "Archive"
 url="/Archives/"
