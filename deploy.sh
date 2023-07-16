@@ -5,7 +5,7 @@ cd `dirname $0`
 git add .
 
 if [ $# = 0 ]; then
-    COMMENT=`date +%Y%d%m%H%M%S`
+    COMMENT=`date +%Y%m%d%H%M%S`
 else
     COMMENT=$1
 fi
