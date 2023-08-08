@@ -33,17 +33,22 @@ home = ["HTML", "RSS", "JSON"]
 [[menu.main]]
 identifier = "a"
 name = "diary"
-url="/posts/diary"
+url="/categories/diary"
 weight = 1
 [[menu.main]]
 identifier = "post"
 name = "article"
-url="/posts/article"
+url="/categories/article"
 weight = 10
 [[menu.main]]
 identifier = "Tag"
 name = "Tag"
 url="/tags/"
+weight = 20
+[[menu.main]]
+identifier = "Categories"
+name = "Categories"
+url="/categories/"
 weight = 20
 [[menu.main]]
 identifier = "Archive"
