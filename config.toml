@@ -2,7 +2,7 @@
 baseURL = 'https://marigold1287.github.io/'
 languageCode = 'en-us'
 title = "YURIGRAMMING -Marigold's blog-"
-theme = "Papermod"
+theme = "PaperMod"
 mainSections = ['posts']
 
 [params.homeInfoParams]
