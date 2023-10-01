@@ -15,7 +15,7 @@ env = "production"              #enhanced SEO
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-
+showtoc = true
 
 # for search
 # https://fusejs.io/api/options.html
