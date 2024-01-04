@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       62823505-965a-4fcd-b604-3d285d56bab5
+:END:
+#+title: orgのエクスポート(export)機能について
+#+filetags: :orgmode:orgroam:
+[[id:be3e59e9-00a7-4f29-8788-d908f95a6e06][roamノードのエクスポート]] IDのリンク解決のこと
+
+[[id:cfdd6db2-5857-4057-b5f7-1741b6cf8f3b][エクスポートオプション]]
+
+[[id:bf0649d2-2d9c-4fe3-b32d-ae043b38a5f7][htmlエクスポート時にテーマを設定する]]
+
+[[id:18d98e65-dd73-4428-af62-2717d068f141][htmlizeでエクスポート時にシンタックスハイライトを適用する]]
+
+[[id:9db8a01c-72e1-4e40-8372-9890c78e12f9][org-modeで書いているままをエクスポートしたい時]]
+
+[[id:8375e6ca-eed5-4633-a296-144b9ecc1cb0][org-modeによるPublishing]]
+
+[[id:0ef4fc87-77f9-440f-95dc-ae1c847e2488][org-modeでexportするときに<が&ltになってしまう問題]]
+
+[[id:3f53fb02-621a-4dc6-9ef3-418f73f36772][roamファイルをox-hugoでまとめてエクスポートしたい]]
+
+[[id:09fafda3-0617-42b5-a4d3-af052d5576d1][hugoでorgファイルをcontentsフォルダに入れても先頭にPROPERTIES DRAWERがあると上手くいかない]]
+* ref
+- [[https://futurismo.biz/using-org-roam-one-year-2022/#da0388][🖊知的生産のキラーアプリOrg-roamを１年使い倒し学ぶとはなにか考えたポエム(2022) | Futurismo]]
+- [[https://keido-dev.netlify.app/notes/][🏠虚無との戦い | 虚無との戦い]]
+- [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][Build Your Website with Org Mode - System Crafters]]

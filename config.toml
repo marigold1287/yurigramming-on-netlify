@@ -60,8 +60,3 @@ identifier = "Search"
 name = "search"
 url="/search/"
 weight = 40
-[[menu.main]]
-identifier = "登山・旅行"
-name = "登山/旅行"
-url="/posts/20231022210308/"
-weight=0
