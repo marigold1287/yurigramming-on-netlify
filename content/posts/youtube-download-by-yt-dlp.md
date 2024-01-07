@@ -3,7 +3,8 @@ title = "yt-dlpでyoutubeの動画をdownloadする"
 author = ["Marigold"]
 description = "yt-dlpを使った動画ダウンロード方法"
 date = 2024-01-05T14:42:00+09:00
-lastmod = 2024-01-05T14:42:16+09:00
+lastmod = 2024-01-07T21:48:39+09:00
+tags = ["pc"]
 categories = ["article"]
 draft = false
 +++

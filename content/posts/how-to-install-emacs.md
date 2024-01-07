@@ -3,7 +3,8 @@ title = "emacsのインストール方法"
 author = ["Marigold"]
 description = "emacsのインストール方法。snapでインストールするのが一番良い。WSLではX Serverとか日本語入力の設定がかなり面倒。"
 date = 2024-01-05T00:08:11+09:00
-lastmod = 2024-01-05T11:18:02+09:00
+lastmod = 2024-01-07T21:48:39+09:00
+tags = ["emacs"]
 categories = ["article"]
 draft = false
 +++

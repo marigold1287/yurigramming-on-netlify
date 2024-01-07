@@ -3,8 +3,8 @@ title = "ubuntuのインストール"
 author = ["Marigold"]
 description = "ubuntuのインストール方法を簡単にまとめた。"
 date = 2023-08-18T23:18:59+09:00
-lastmod = 2024-01-05T11:18:02+09:00
-tags = ["PC", "ubuntu"]
+lastmod = 2024-01-07T21:48:38+09:00
+tags = ["ubuntu"]
 categories = ["article"]
 draft = false
 +++

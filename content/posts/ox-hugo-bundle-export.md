@@ -3,7 +3,8 @@ title = "hugoのBundleとstaticファイルのエクスポート先"
 author = ["Marigold"]
 description = "hugoのBundle機能に関する説明とox-hugoでBundle機能をどのように使用するかについてまとめた。"
 date = 2024-01-05T14:16:00+09:00
-lastmod = 2024-01-05T14:35:04+09:00
+lastmod = 2024-01-07T21:48:38+09:00
+tags = ["emacs", "homepage"]
 categories = ["article"]
 draft = false
 +++
