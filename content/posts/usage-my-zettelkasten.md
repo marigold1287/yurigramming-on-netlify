@@ -1,8 +1,9 @@
 +++
 title = "zettelkastenの運用方法を考える"
 author = ["Marigold"]
+description = "org-roamを2年間使っての反省点と今後の運用方法の検討"
 date = 2024-01-07T21:37:00+09:00
-lastmod = 2024-01-07T21:48:39+09:00
+lastmod = 2024-01-08T21:25:30+09:00
 tags = ["homepage", "management"]
 categories = ["article"]
 draft = false

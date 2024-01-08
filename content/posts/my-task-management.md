@@ -1,8 +1,9 @@
 +++
 title = "タスク管理方法を考える"
 author = ["Marigold"]
+description = "emacsでGTD的なタスク管理を実施できるように環境を構築した。"
 date = 2024-01-07T21:44:00+09:00
-lastmod = 2024-01-07T21:48:39+09:00
+lastmod = 2024-01-08T21:25:31+09:00
 tags = ["management"]
 categories = ["article"]
 draft = false

@@ -2,7 +2,8 @@
 title = "ubuntuの設定いろいろ"
 author = ["Marigold"]
 description = "ubuntuインストール後に行ったこと。"
-lastmod = 2024-01-07T21:48:39+09:00
+date = 2024-01-04T00:00:00+09:00
+lastmod = 2024-01-08T21:26:35+09:00
 tags = ["ubuntu"]
 categories = ["article"]
 draft = false

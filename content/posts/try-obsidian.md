@@ -1,8 +1,9 @@
 +++
 title = "obsidianを使ってみる"
 author = ["Marigold"]
+description = "zettelkasten的な運用ができる有名なツールにobsidianがある。試しに使ってみたけど結局emacsによる運用を続けることにした。"
 date = 2023-12-28T21:37:00+09:00
-lastmod = 2024-01-07T21:48:39+09:00
+lastmod = 2024-01-08T21:25:30+09:00
 tags = ["management"]
 categories = ["article"]
 draft = false

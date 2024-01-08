@@ -1,8 +1,9 @@
 +++
 title = "org-roamの問題点と思っていたこと"
 author = ["Marigold"]
+description = "obsidianを使う理由を見出すためにemacsの問題点を書き出してみた。嫌い嫌いも...ということである。"
 date = 2023-12-28T21:36:00+09:00
-lastmod = 2024-01-07T21:48:39+09:00
+lastmod = 2024-01-08T21:25:30+09:00
 tags = ["management"]
 categories = ["article"]
 draft = false
