@@ -3,7 +3,7 @@ title = "2023/12/31(日)-2024/01/01(月) 沼津で年を越す"
 author = ["Marigold"]
 description = "沼津で年を越す、そして沼津アルプスを縦走する。"
 date = 2024-01-05T17:33:00+09:00
-lastmod = 2024-01-08T21:25:28+09:00
+lastmod = 2024-01-14T14:52:32+09:00
 tags = ["登山"]
 categories = ["diary"]
 draft = false
@@ -42,11 +42,11 @@ draft = false
 グランマでお菓子を買って、松浦酒店で西浦の檸檬を使ったというリキュールを買った。その後はあゆみ橋を歩いたりしながらびゅうおで日の入りを見ようと沼津港へ向かう。
 1月1日がダイヤさんの誕生日ということでびゅうおが赤く照らされていた。
 
-{{< figure src="/img/20240101/thumbnail/20240101_8.jpg" title="ダイヤさんカラーに染まるびゅうお" rel="lightbox" link="/img/20240101/20240101_8.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_8.jpg" title="ダイヤさんカラーに染まるびゅうお" rel="lightbox[1]" link="/img/20240101/20240101_8.jpg" >}}
 
 沼津港から駅までどこかで食事をと思いながら歩いていたのだがどこも開いていない。さんざん歩き回って最後には沼津駅のスーパーで惣菜と白飯を買うという旅行者とは思えない行為に走る。食にこだわりはないし不味くもなかったのだが、これが大晦日の食事なのかと言いたくなるような内容だった。
 
-{{< figure src="/img/20240101/thumbnail/20240101_12.jpg" title="大晦日に半額惣菜を食べる" rel="lightbox" link="/img/20240101/20240101_12.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_12.jpg" title="大晦日に半額惣菜を食べる" rel="lightbox[1]" link="/img/20240101/20240101_12.jpg" >}}
 
 
 ## ホテルで年を越す {#ホテルで年を越す}
@@ -64,15 +64,15 @@ draft = false
 
 外はよく晴れていて昨日は雲で見えなかった富士山もはっきり見えた。
 
-{{< figure src="/img/20240101/thumbnail/20240101_13.jpg" title="ホテルから見た富士山" rel="lightbox" link="/img/20240101/20240101_13.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_13.jpg" title="ホテルから見た富士山" rel="lightbox[1]" link="/img/20240101/20240101_13.jpg" >}}
 
 駿河湾もあいわからずキレイで本当にいい街だなと思う。
 
-{{< figure src="/img/20240101/thumbnail/20240101_14.jpg" title="ホテルから見た駿河湾" rel="lightbox" link="/img/20240101/20240101_14.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_14.jpg" title="ホテルから見た駿河湾" rel="lightbox[1]" link="/img/20240101/20240101_14.jpg" >}}
 
 朝食はホテルのバイキング、ようやく豪華な食事にありつけた。
 
-{{< figure src="/img/20240101/thumbnail/20240101_16.jpg" title="旅行中唯一のまともな食事" rel="lightbox" link="/img/20240101/20240101_16.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_16.jpg" title="旅行中唯一のまともな食事" rel="lightbox[1]" link="/img/20240101/20240101_16.jpg" >}}
 
 
 ## 香貫山へ {#香貫山へ}
@@ -81,11 +81,11 @@ draft = false
 
 ホテルを出たのが08:00ごろ、香貫山の展望台に着いたのは08:40ごろだった。天気は快晴で展望台で10分以上は景色を眺めていた。
 
-{{< figure src="/img/20240101/thumbnail/20240101_24.jpg" title="香貫山展望台から" rel="lightbox" link="/img/20240101/20240101_24.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_24.jpg" title="香貫山展望台から" rel="lightbox[1]" link="/img/20240101/20240101_24.jpg" >}}
 
-{{< figure src="/img/20240101/thumbnail/20240101_31.jpg" title="謎のオブジェと富士山" rel="lightbox" link="/img/20240101/20240101_31.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_31.jpg" title="謎のオブジェと富士山" rel="lightbox[1]" link="/img/20240101/20240101_31.jpg" >}}
 
-{{< figure src="/img/20240101/thumbnail/20240101_25.jpg" title="淡島とホテルも見える。" rel="lightbox" link="/img/20240101/20240101_25.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_25.jpg" title="淡島とホテルも見える。" rel="lightbox[1]" link="/img/20240101/20240101_25.jpg" >}}
 
 
 ## 沼津アルプス縦走 {#沼津アルプス縦走}
@@ -94,7 +94,7 @@ draft = false
 
 （[九鬼山]({{< relref "mount-kuki-takahata" >}})と違って...）縦走途中もところどころに見晴らし台があったりするので飽きることはない。香貫山が一番なのかもしれないが、少し疲れたところで景色が開けると嬉しいものがある。
 
-{{< figure src="/img/20240101/thumbnail/20240101_45.jpg" title="道中の見晴らし台から" rel="lightbox" link="/img/20240101/20240101_45.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_45.jpg" title="道中の見晴らし台から" rel="lightbox[1]" link="/img/20240101/20240101_45.jpg" >}}
 
 大平山まで登って沼津アルプスを踏破。少し引き返して多比に降りた。
 
@@ -111,9 +111,9 @@ draft = false
 
 駅もお祝いムードになっていて電光掲示板にまで誕生日おめでとうというメッセージが流れている。愛されているなぁ...本当に。
 
-{{< figure src="/img/20240101/thumbnail/20240101_58.jpg" title="ダイヤさんお誕生日おめでとう" rel="lightbox" link="/img/20240101/20240101_58.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_58.jpg" title="ダイヤさんお誕生日おめでとう" rel="lightbox[1]" link="/img/20240101/20240101_58.jpg" >}}
 
-{{< figure src="/img/20240101/thumbnail/20240101_55.jpg" title="ダイヤさんお誕生日おめでとう" rel="lightbox" link="/img/20240101/20240101_55.jpg" >}}
+{{< figure src="/img/20240101/thumbnail/20240101_55.jpg" title="ダイヤさんお誕生日おめでとう" rel="lightbox[1]" link="/img/20240101/20240101_55.jpg" >}}
 
 15:20頃に熱海に着く。帰りの電車で金沢の地震のことを知る。東京駅は混乱していそうと思い日暮里経由で家に帰った。
 
