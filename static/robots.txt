@@ -3,4 +3,4 @@ Disallow: /categories/
 Disallow: /tags/
 Disallow: /blog/
 Disallow: /archives/
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: https://marigold1287.github.io/sitemap.xml
