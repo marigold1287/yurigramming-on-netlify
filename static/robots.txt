@@ -1,6 +1,2 @@
 User-agent: *
-Disallow: /categories/
-Disallow: /tags/
-Disallow: /blog/
-Disallow: /archives/
 Sitemap: https://marigold1287.github.io/sitemap.xml
