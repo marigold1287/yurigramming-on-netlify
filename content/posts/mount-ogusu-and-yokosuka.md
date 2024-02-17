@@ -3,10 +3,11 @@ title = "2023/07/15(土) 大楠山登山と横須賀観光"
 author = ["Marigold"]
 description = "初めての登山で神奈川県の大楠山に登ったことと横須賀で戦艦三笠を見に行ったこと。"
 date = 2023-07-15T23:59:00+09:00
-lastmod = 2024-01-08T21:25:27+09:00
+lastmod = 2024-02-17T21:23:27+09:00
 tags = ["登山"]
 categories = ["diary"]
 draft = false
+cover.image = "/img/20230715/20230715_9.jpg"
 +++
 
 [先週]({{< relref "mount-ogusu-try" >}})のリベンジを果たすべく、再び大楠山を目指す。今回は体調も整っていたから何事もなく衣笠（きぬがさ）駅に到着した。
@@ -51,7 +52,7 @@ draft = false
 
 {{< figure src="/img/20230715/thumbnail/20230715_12.jpg" height="200" rel="lightbox[1]" link="/img/20230715/20230715_12.jpg" >}}
 
-{{< figure src="/img/20230715/thumbnail/20230715_13.jpg" height="200" rel="lightbox[1]" link="/img/20230715/20230715_13.jpg" >}}
+[pfile:/home/kanta/org/static/img/20230715/thumbnail/20230715_13.jpg](/img/20230715/20230715_13.jpg)
 
 しばらく休憩して下山開始。同じ道をたどったほうが安全だろうと思って来た道を引き返す。
 
