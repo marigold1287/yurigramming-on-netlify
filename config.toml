@@ -31,6 +31,11 @@ keys = ["title", "permalink", "summary", "content"]
 [outputs]                       #search対象
 home = ["HTML", "RSS", "JSON"]
 
+[sitemap]
+changeFreq = ''
+filename = 'sitemap.xml'
+priority = -1
+
 [[menu.main]]
 identifier = "a"
 name = "diary"
