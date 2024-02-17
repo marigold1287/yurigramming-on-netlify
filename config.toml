@@ -17,6 +17,8 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 showtoc = true
+ShowShareButtons = true
+cover.hidden = true
 
 # for search
 # https://fusejs.io/api/options.html
@@ -35,6 +37,11 @@ home = ["HTML", "RSS", "JSON"]
 changeFreq = ''
 filename = 'sitemap.xml'
 priority = -1
+
+[[params.socialIcons]]
+name = "twitter"
+url =  "https://twitter.com/marigold1332"
+
 
 [[menu.main]]
 identifier = "a"
