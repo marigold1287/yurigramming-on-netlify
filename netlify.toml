@@ -1,9 +1,9 @@
-[build]
-publish = "public"
-command = "hugo --gc"
+# [build]
+# publish = "public"
+# command = "hugo --gc"
 
-[build.environment]
-HUGO_VERSION = "0.122.0"
+# [build.environment]
+# HUGO_VERSION = "0.122.0"
 
 # [context.production.environment]
 # HUGO_ENV           = "production"
@@ -24,7 +24,7 @@ HUGO_VERSION = "0.122.0"
 # [context.next.environment]
 # HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-from   = "/npmjs/*"
-to     = "/npmjs/"
-status = 200
+# [[redirects]]
+# from   = "/npmjs/*"
+# to     = "/npmjs/"
+# status = 200
