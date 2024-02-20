@@ -1,30 +1,30 @@
-# [build]
-# publish = "public"
-# command = "hugo --gc"
+[build]
+publish = "public"
+command = "hugo --gc --theme=PaperMod"
 
-# [build.environment]
-# HUGO_VERSION = "0.122.0"
+[build.environment]
+HUGO_VERSION = "0.122.0"
 
-# [context.production.environment]
-# HUGO_ENV           = "production"
-# HUGO_ENABLEGITINFO = "true"
+[context.production.environment]
+HUGO_ENV           = "production"
+HUGO_ENABLEGITINFO = "true"
 
-# [context.split1]
-# command = "hugo --gc  --enableGitInfo"
+[context.split1]
+command = "hugo --gc --theme=PaperMod  --enableGitInfo"
 
-# [context.split1.environment]
-# HUGO_ENV = "production"
+[context.split1.environment]
+HUGO_ENV = "production"
 
-# [context.deploy-preview]
-# command = "hugo --gc --buildFuture -b $DEPLOY_PRIME_URL"
+[context.deploy-preview]
+command = "hugo --gc --theme=PaperMod --buildFuture -b $DEPLOY_PRIME_URL"
 
-# [context.branch-deploy]
-# command = "hugo --gc -b $DEPLOY_PRIME_URL"
+[context.branch-deploy]
+command = "hugo --gc --theme=PaperMod -b $DEPLOY_PRIME_URL"
 
-# [context.next.environment]
-# HUGO_ENABLEGITINFO = "true"
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
 
-# [[redirects]]
-# from   = "/npmjs/*"
-# to     = "/npmjs/"
-# status = 200
+[[redirects]]
+from   = "/npmjs/*"
+to     = "/npmjs/"
+status = 200
