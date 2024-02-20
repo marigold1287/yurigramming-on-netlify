@@ -3,8 +3,8 @@ title = "hugoのBundleとstaticファイルのエクスポート先"
 author = ["Marigold"]
 description = "hugoのBundle機能に関する説明とox-hugoでBundle機能をどのように使用するかについてまとめた。"
 date = 2024-01-05T14:16:00+09:00
-lastmod = 2024-01-08T21:25:30+09:00
-tags = ["emacs", "homepage"]
+lastmod = 2024-02-21T01:02:35+09:00
+tags = ["hugo"]
 categories = ["article"]
 draft = false
 +++
@@ -43,7 +43,7 @@ Branch Bundleには `_index.md` ファイルを作る。この状態で
 ## Leaf {#leaf}
 
 mount-tsukuba と mount-fuji は Leaf Bundle で、 `index.md` に記事を書く。
-`/posts/mountaineering/test/` にアクセスすると `index.md` の本文が表示される。
+`/posts/mountaineering/mount-fuji/` にアクセスすると `index.md` の本文が表示される。
 
 
 ## BranchとLeafは共存できない {#branchとleafは共存できない}
@@ -81,7 +81,7 @@ ox-hugoでこの機能を使いたい場合、 org file は次のようにする
 
 [[file:~/path/to/mount-tsukuba/img/B.jpg][パス上にBundle名が含まれていればcontent内でも構造が維持される。]]
 
-[[file:~/path/to/static/mount-tsukuba/img/C.jpg][static内にBundleと同じディレクトリがあってもBundle内に出力される]]
+[[file:~/path/to/static/mount-tsukuba/img/C.jpg][static内にBundleと同じディレクトリがあってもstatic内に出力される]]
 
 [[file:~/path/to/static/A.jpg][static内にあるファイルはstaticに入る]]
 
@@ -96,9 +96,11 @@ https://ox-hugo.scripter.co/doc/images-in-content/
 
 筑波サブツリーをエクスポートした時の画像の保存先を説明する。
 
-画像パス上に Bundle 名と同じディレクトリがあるなら、content内でもディレクトリ構造が維持される。
-
-staticという名前のフォルダがパス上にあったらstatic内に入れられる。このときもディレクトリ構造は維持される。
+1.  画像パス上に Bundle 名と同じディレクトリがある場合、
+    content内でもディレクトリ構造が維持される。
+2.  staticという名前のフォルダがパス上にあったらstatic内に入れられる。このときもディレクトリ構造は維持される。
+3.  画像パス上に Bundle 名も staticもない場合は
+    `org-hugo-default-static-subdirectory-for-externals` で設定されたフォルダがstaticフォルダの下に生成されそこに保存される。デフォルトは `ox-hugo` 。注意しなくてはいけないのは、 **`ox-hugo` の直下** にすべてのデータが保存されてしまうため、元のディレクトリ構造が保持されない。また、同じファイル名のファイルは上書きされることになるので注意すること。
 
 
 ## Bundleを使うかどうか {#bundleを使うかどうか}

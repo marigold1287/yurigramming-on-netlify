@@ -1,10 +1,10 @@
 +++
-title = "org-modeでexportするときに<が &(and)lt になってしまう問題"
+title = "ox-hugoでexportするときに<が &(and)lt になってしまう問題"
 author = ["Marigold"]
 description = "山括弧を含む文書をエクスポートする時に&記号を使った表記に変換されてしまって、ショートコードなんかがうまく機能しないことがある。"
 date = 2024-01-04T19:16:10+09:00
-lastmod = 2024-01-08T21:25:30+09:00
-tags = ["homepage", "emacs"]
+lastmod = 2024-02-21T01:02:34+09:00
+tags = ["hugo"]
 categories = ["article"]
 draft = false
 +++

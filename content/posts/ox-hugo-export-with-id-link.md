@@ -3,8 +3,8 @@ title = "ox-hugoでのexport機能とリンクの解決方法について"
 author = ["Marigold"]
 description = "org-roamを使っているとIDリンクを含む文章を書く機会が多くなる。ただ、リンクを含んだ記事をエクスポートしようとしてかなり苦戦したためここで整理しておく。"
 date = 2024-01-04T18:24:29+09:00
-lastmod = 2024-01-08T21:25:29+09:00
-tags = ["homepage", "emacs"]
+lastmod = 2024-02-21T01:02:34+09:00
+tags = ["hugo"]
 categories = ["article"]
 draft = false
 +++
@@ -200,9 +200,6 @@ roamのメモをまるごとエクスポートしたようなサイトをデジ�
 -   不要になったメモを捨てる。
 
 がいいんじゃないかと思っている。
-
-
-## 関連 {#関連}
 
 [^fn:1]: Anchorの命名には優先順位があって EXPORT_FILE_NAME, CUSTOM_ID, 見出し名 の順。詳細は <https://ox-hugo.scripter.co/doc/anchors/> を参照
 [^fn:2]: このおかげでリンク切れがあってもサイトが表示できるようになっている。

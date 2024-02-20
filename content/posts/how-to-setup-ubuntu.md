@@ -3,7 +3,7 @@ title = "ubuntuの設定いろいろ"
 author = ["Marigold"]
 description = "ubuntuインストール後に行ったこと。"
 date = 2024-01-04T00:00:00+09:00
-lastmod = 2024-01-08T21:26:35+09:00
+lastmod = 2024-02-21T01:02:36+09:00
 tags = ["ubuntu"]
 categories = ["article"]
 draft = false
@@ -165,7 +165,6 @@ user_allow_other
 
 
 ## cronでスケジュール実行を行う {#cronでスケジュール実行を行う}
-
 
 
 ### 起動 {#起動}

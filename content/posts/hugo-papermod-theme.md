@@ -1,0 +1,115 @@
++++
+title = "hugoのtheme-hugo papermod-"
+author = ["Marigold"]
+description = "このホームページで使っているthemeと設定について"
+date = 2024-02-21T00:45:00+09:00
+lastmod = 2024-02-21T01:02:35+09:00
+tags = ["hugo"]
+categories = ["article"]
+draft = false
++++
+
+## 公式 {#公式}
+
+-   <https://github.com/adityatelange/hugo-PaperMod/>
+-   <https://themes.gohugo.io/themes/hugo-papermod/>
+
+
+## インストール {#インストール}
+
+<https://github.com/adityatelange/hugo-PaperMod/wiki/Installation> ではサブモジュールとしてのインストールを推奨している。
+
+config.tomlのあるフォルダに移動して、
+
+```bash
+git init
+
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+
+git submodule update --init --recursive
+# needed when you reclone your repo (submodules may not get cloned automatically)
+```
+
+
+## アップデート {#アップデート}
+
+同じくconfig.tomlのあるフォルダに移動して、
+
+```bash
+git submodule update --remote --merge
+```
+
+
+## テーマの有効化 {#テーマの有効化}
+
+`config.toml` に `theme = "Papermod"` を追記する(値はフォルダ名と同じにする)。
+
+
+## layoutsの読み込み優先順位 {#layoutsの読み込み優先順位}
+
+`/layouts` 内が最優先。次に `/themes/Papermod/layouts` を読み込む。
+
+カスタムしたいときには `/layouts` にファイルをコピーして編集すればよいが、こういうやり方をするときの注意として、themeをアップデートしたときに当該ファイルの更新を手動で実施する必要がある。
+
+
+## 数式表示 {#数式表示}
+
+下記を見るとPapermodでは自動的にmathjaxがロードされることが分かる。
+
+`themes/Papermod/layouts/partials/extend_footer.html`
+
+```org
+\(\frac{1}{2}\)
+```
+
+\\(\frac{1}{2}\\)
+
+
+### 自分で設定する場合 {#自分で設定する場合}
+
+以下をfooterに追加する。
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- 式番号を表示したい場合 -->
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+```
+
+<https://maku77.github.io/p/dsfzi4n/> も参考になる。
+
+数式を使っていないページでの読み込みを防ぐためには
+extend_footer.htmlを
+
+```html
+{{- /* Footer custom content area start */ -}}
+{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
+{{- if eq .Params.useMath true }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+{{- end }}
+{{- /* Footer custom content area end */ -}}
+```
+
+と書き換える。
+
+そして、記事のfrontmatterに
+
+```toml
++++
+title = "2023/07/15(土) 大楠山登山と横須賀観光"
+useMath: true
++++
+```
+
+を加える。
+
+
+## カスタマイズ {#カスタマイズ}
+
+-   [LastModを表示する]({{< relref "papermod-with-lastmod" >}})
+-   [Papermodのcustom css]({{< relref "papermod-custom-css" >}})
+-   [lightboxを使う]({{< relref "how-to-use-lightbox" >}})
+
+
+## 設定 {#設定}
