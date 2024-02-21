@@ -3,7 +3,7 @@ title = "lightboxを使う"
 author = ["Marigold"]
 description = "hugoでlightboxを使って画像を拡大表示する方法"
 date = 2024-02-21T00:45:00+09:00
-lastmod = 2024-02-21T01:02:35+09:00
+lastmod = 2024-02-21T22:25:48+09:00
 tags = ["hugo"]
 categories = ["article"]
 draft = false
@@ -29,7 +29,7 @@ distフォルダの中身を `static/lightbox` フォルダに移動させる
 
 ## extend_ehad.html {#extend-ehad-dot-html}
 
-`layouts/partials/exntend_head.html` を作成し、
+`layouts/partials/extend_head.html` を作成し、
 
 ```html
 <link href="{{ .Site.BaseURL }}lightbox/css/lightbox.css" rel="stylesheet" />
