@@ -3,7 +3,7 @@ title = "tomlについてのメモ"
 author = ["Marigold"]
 description = "tomlについての備忘録"
 date = 2024-02-21T01:07:00+09:00
-lastmod = 2024-02-21T01:07:33+09:00
+lastmod = 2024-02-25T22:13:42+09:00
 categories = ["article"]
 draft = false
 +++
