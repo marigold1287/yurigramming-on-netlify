@@ -3,7 +3,7 @@ title = "twitter cardの設定"
 author = ["Marigold"]
 description = "twitterカードで表示する画像について"
 date = 2024-02-21T23:09:00+09:00
-lastmod = 2024-02-21T23:09:35+09:00
+lastmod = 2024-02-24T13:11:38+09:00
 tags = ["hugo"]
 categories = ["article"]
 draft = false
@@ -41,7 +41,7 @@ cover.hidden = true             #twitterカード用の画像を記事上で非�
 
 こんな感じ
 
-{{<tweet marigold1332 1760302820635652284 >}}
+{{<tweet user="marigold1332" id="1760302820635652284" >}}
 
 
 ## 参考 {#参考}

@@ -3,7 +3,7 @@ title = "アイカツ！ 10th STORY 未来へのSTARWAY"
 author = ["Marigold"]
 description = "アイカツ 10th 映画の感想。ウイスキーを飲む紫吹蘭に感激した。"
 date = 2023-02-08
-lastmod = 2024-02-21T01:02:33+09:00
+lastmod = 2024-02-24T13:10:04+09:00
 tags = ["雑記"]
 categories = ["diary"]
 draft = false
@@ -25,6 +25,6 @@ draft = false
 
 特典のイラストカードはユリカさま。前回のフィルムもユリカさまだったのだが、何かの縁があるのだろうか。
 
-{{<tweet aikatsu_anime 1623259673217613825>}}
+{{<tweet user="aikatsu_anime" id="1623259673217613825">}}
 
 明日から再販してくれる模様。速いうちに買いに行こう。
