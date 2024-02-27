@@ -4,7 +4,7 @@ languageCode = 'en-us'
 title = "YURIGRAMMING -Marigold's blog-"
 theme = "PaperMod"
 mainSections = ['posts']
-# enableRobotsTXT = true
+enableRobotsTXT = true
 
 [params.homeInfoParams]
  Title = "YuriGRAMMING"
@@ -33,10 +33,10 @@ keys = ["title", "permalink", "summary", "content"]
 [outputs]                       #search対象
 home = ["HTML", "RSS", "JSON"]
 
-[sitemap]
-changeFreq = ''
-filename = 'sitemap.xml'
-priority = -1
+# [sitemap]
+# changeFreq = ''
+# filename = 'sitemap.xml'
+# priority = -1
 
 [[params.socialIcons]]
 name = "twitter"
