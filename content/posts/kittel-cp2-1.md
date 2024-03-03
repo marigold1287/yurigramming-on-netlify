@@ -3,7 +3,7 @@ title = "六方空間格子"
 author = ["Marigold"]
 description = "キッテル固体物理学入門演習問題2-1"
 date = 2024-02-25T15:58:00+09:00
-lastmod = 2024-02-25T22:13:42+09:00
+lastmod = 2024-03-02T02:23:35+09:00
 tags = ["kittel"]
 categories = ["article"]
 draft = false
@@ -42,9 +42,11 @@ V = \boldsymbol{a\_1} \cdot \boldsymbol{a\_2} \times \boldsymbol{a\_3} = \frac{\
 \end{align\*}
 
 である。 \\(\boldsymbol{a\_1}\\) と \\(\boldsymbol{b\_1}\\) のなす角を内積の関係から求めると
-\\(60^\circ\\)であることが分かる。
+\\(30^\circ\\)であることが分かる。
 
-よって、六方空間格子の逆格子はもとの格子をz軸の周りに60度回転させた格子となる(回転させた後拡大収縮の操作を行った格子)。
+よって、六方空間格子の逆格子はもとの格子をz軸の周りに30度回転させた格子となる(回転させた後拡大収縮の操作を行った格子)。
+
+\*a<sub>1</sub> と a<sub>2</sub> の成す角は120度、しかし、b<sub>1</sub> と b<sub>2</sub> の成す角は60度、なぜ角度が変わるのか?いずれにせよ六方格子ではあるが
 
 
 ## (c) {#c}
